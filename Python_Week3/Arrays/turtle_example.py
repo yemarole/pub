@@ -3,7 +3,7 @@ from turtle import *
 from random import randint
 
 john = Turtle()
-bob = Turtle
+bob = Turtle()
 sally = Turtle()
 
 john.color("red")
