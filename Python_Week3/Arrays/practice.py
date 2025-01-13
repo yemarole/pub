@@ -20,3 +20,5 @@ for i in range(280):
     t.right(60 * 2 + 1)
     t.tracer(10)
 t.exitonclick()
+
+test = "testing git"
