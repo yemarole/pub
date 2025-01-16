@@ -66,26 +66,3 @@ class SportsCar(Car):
 
 # sports_car = SportsCar("Ferrari", "F8 Tributo")
 # sports_car.drive()
-
-
-# Exercise
-class Employee:
-    def __init__(self, name, role):
-        self.role = role
-        self.name = name
-
-    def work(self):
-        print(f"{self.name} is working as a {self.role}")
-
-
-class Programmer(Employee):
-    def __init__(self, name, language):
-        super().__init__(name, "Programmer")
-        self.name = name
-        self.language = language
-
-    def code(self):
-        print(f"{self.name} is coding in {self.language}")
-
-
-Programmer("John", "Python").work()
